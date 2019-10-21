@@ -21,6 +21,7 @@
 		D955B17A235DDEA40080DEB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D955B179235DDEA40080DEB6 /* Constants.swift */; };
 		D955B17C235DDF380080DEB6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D955B17B235DDF380080DEB6 /* LoginVC.swift */; };
 		D9D65274235CA67A00C8ED0B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D65273235CA67A00C8ED0B /* GradientView.swift */; };
+		D9E0A6EE235E279F0099BC62 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E0A6ED235E279F0099BC62 /* CreateAccountVC.swift */; };
 		FB441F4D1FF5DD0EB6C48059 /* Pods_SmackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A61FC68336A514B5DFFBED /* Pods_SmackUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		D955B179235DDEA40080DEB6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D955B17B235DDF380080DEB6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D9D65273235CA67A00C8ED0B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D9E0A6ED235E279F0099BC62 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		DB1F703569A8D7F3DBDEECF3 /* Pods-SmackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackUITests/Pods-SmackUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBACA1B18EDE2F6ECEA7FE85 /* Pods-SmackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackTests/Pods-SmackTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC4A84CEA68D6BEC8456CB96 /* Pods-SmackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackTests/Pods-SmackTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				D90979C9235C804900A7AC8F /* ChatVc.swift */,
 				D90979CB235C805A00A7AC8F /* ChannelVC.swift */,
 				D955B17B235DDF380080DEB6 /* LoginVC.swift */,
+				D9E0A6ED235E279F0099BC62 /* CreateAccountVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				D9097994235C7CFD00A7AC8F /* AppDelegate.swift in Sources */,
 				D90979C5235C7DA200A7AC8F /* SWRevealViewController.m in Sources */,
 				D955B17A235DDEA40080DEB6 /* Constants.swift in Sources */,
+				D9E0A6EE235E279F0099BC62 /* CreateAccountVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

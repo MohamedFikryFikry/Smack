@@ -11,6 +11,7 @@ import UIKit
 class ChannelVC: UIViewController {
 
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func unwrapfromsegue(segue : UIStoryboardSegue){}
     
     override func viewDidLoad() {
         super.viewDidLoad()
