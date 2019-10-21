@@ -18,6 +18,8 @@
 		D90979C5235C7DA200A7AC8F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90979C4235C7DA200A7AC8F /* SWRevealViewController.m */; };
 		D90979CA235C804900A7AC8F /* ChatVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90979C9235C804900A7AC8F /* ChatVc.swift */; };
 		D90979CC235C805A00A7AC8F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90979CB235C805A00A7AC8F /* ChannelVC.swift */; };
+		D955B17A235DDEA40080DEB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D955B179235DDEA40080DEB6 /* Constants.swift */; };
+		D955B17C235DDF380080DEB6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D955B17B235DDF380080DEB6 /* LoginVC.swift */; };
 		D9D65274235CA67A00C8ED0B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D65273235CA67A00C8ED0B /* GradientView.swift */; };
 		FB441F4D1FF5DD0EB6C48059 /* Pods_SmackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A61FC68336A514B5DFFBED /* Pods_SmackUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		D90979C4235C7DA200A7AC8F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		D90979C9235C804900A7AC8F /* ChatVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVc.swift; sourceTree = "<group>"; };
 		D90979CB235C805A00A7AC8F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		D955B179235DDEA40080DEB6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D955B17B235DDF380080DEB6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		D9D65273235CA67A00C8ED0B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DB1F703569A8D7F3DBDEECF3 /* Pods-SmackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackUITests/Pods-SmackUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EBACA1B18EDE2F6ECEA7FE85 /* Pods-SmackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackTests/Pods-SmackTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 		D9097992235C7CFD00A7AC8F /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				D955B178235DDE7B0080DEB6 /* utilites */,
 				D90979C8235C801600A7AC8F /* model */,
 				D90979C7235C801100A7AC8F /* view */,
 				D90979C6235C800800A7AC8F /* controller */,
@@ -191,6 +196,7 @@
 			children = (
 				D90979C9235C804900A7AC8F /* ChatVc.swift */,
 				D90979CB235C805A00A7AC8F /* ChannelVC.swift */,
+				D955B17B235DDF380080DEB6 /* LoginVC.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -208,6 +214,14 @@
 			children = (
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		D955B178235DDE7B0080DEB6 /* utilites */ = {
+			isa = PBXGroup;
+			children = (
+				D955B179235DDEA40080DEB6 /* Constants.swift */,
+			);
+			path = utilites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,9 +443,11 @@
 			files = (
 				D90979CC235C805A00A7AC8F /* ChannelVC.swift in Sources */,
 				D90979CA235C804900A7AC8F /* ChatVc.swift in Sources */,
+				D955B17C235DDF380080DEB6 /* LoginVC.swift in Sources */,
 				D9D65274235CA67A00C8ED0B /* GradientView.swift in Sources */,
 				D9097994235C7CFD00A7AC8F /* AppDelegate.swift in Sources */,
 				D90979C5235C7DA200A7AC8F /* SWRevealViewController.m in Sources */,
+				D955B17A235DDEA40080DEB6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
